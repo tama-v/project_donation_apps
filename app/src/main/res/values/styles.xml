@@ -1,0 +1,15 @@
+<resources>
+    <!-- Inherit from a Material Components theme -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="ShapeAppearance.App.BottomRoundCard" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSizeBottomRight">24dp</item>
+        <item name="cornerSizeBottomLeft">24dp</item>
+        <item name="cornerSizeTopRight">0dp</item>
+        <item name="cornerSizeTopLeft">0dp</item>
+    </style>
+
+</resources>
